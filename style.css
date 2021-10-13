@@ -1,0 +1,226 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+    
+}
+
+.content{
+    max-width: 950px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    color: #828282;
+    text-decoration: none;
+    margin: 20;
+    user-select: none;
+    transition: .5s;
+    
+}
+
+.link:hover{
+    color: black; 
+    transform: scale(1.2);   
+}
+
+.shapka{
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+}
+
+.lineHeader{
+    height: 1px;
+    width: 100%;
+    background: #828282;
+}
+
+.zagolovok{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.name{
+    font-size: 48px;
+    margin: 0;
+
+}
+
+.info{
+    display: flex;
+    align-items:flex-end;
+    margin: 0;
+}
+
+.lang{
+    display: flex;
+    font-size: 16px;
+    writing-mode: vertical-lr;
+    margin: 0pt;
+    transform: scale(-1, -1);
+    justify-content: center;
+    user-select: none;
+}
+
+.about-me{
+    height: 500px;
+    background: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+
+}
+
+.zagText{
+    font-size: 34px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.textt{
+    text-align: center;
+
+}
+
+.skills{
+    background: rgb(255, 255, 255);
+}
+
+.Ps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-top: 85px;
+}
+.Ai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-top: 85px;
+}
+.Ae{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-top: 85px;
+}
+.Fi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-top: 85px;
+    }
+
+.progs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 112px;
+}
+
+.progsName{
+    text-align: center;
+    color: #828282;
+}
+
+.portfolio{
+    background: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.portfolioLink{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: black;
+    transition: .5s;
+}
+
+.portfolioLink:hover{
+    transform: scale(1.2);   
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactBtn{
+    padding: 13px 30px;
+    text-decoration: none;
+    color: white;
+    background: #000;
+    border-radius: 50px;
+    margin-bottom: 85px;
+
+}
+.socialImg{
+    margin: 0px 30px;
+    padding: 0px;
+}
+
+.social{
+    margin-bottom: 45px;
+}
+.im{
+    width: 100%;
+}
+
+.end{
+    color: #828282;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.up{
+    
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #000;
+    right: 20px;
+    bottom: 50px;
+}
+
+.up a{
+    display: flex;
+    justify-content: center;
+    padding: 12px 10px;
+    
+
+    text-decoration: none;
+    color: white;
+}
+
+@media (width: 940px){
+    .content{
+        max-width: 720px;       
+    }
+    .im{
+        width: 300px;
+    }
+}
